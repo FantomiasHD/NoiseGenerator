@@ -59,3 +59,8 @@ python3 GenerateNose.py -h
 
 ## requirements
 Pillow over 5.3
+
+
+
+### Copyright Simon Felix Seeger
+### Created 05/07/2020
