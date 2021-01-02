@@ -12,29 +12,36 @@ noise = NoiseMain.Noise(size, iterations,  smoothVal)
 ```python
 noise.generate()
 ``` 
-
-*generates new unsmoothed image*  
+>*generates new unsmoothed image*  
 ```python
 noise.smooth()
 ``` 
-*smoothes the generated image*  
+>*smoothes the generated image*  
 ```python
 noise.generateEllipse(size)
 ``` 
-*Draws ellipses to generate bigger areas*  
+>*Draws ellipses to generate bigger areas*  
 ```python
 noise.generateRect(size)
 ``` 
-*Draws ellipses to generate bigger areas*  
+>*Draws ellipses to generate bigger areas*  
 ```python
 noise.seed(seed)
 ``` 
-*Defines a seed for noise generation*  
+>*Defines a seed for noise generation*  
 ```python
 noise.save(path, name)
 ``` 
-*Saves the Image with an png extension*  
+>*Saves the Image with an png extension*  
 ```python
 noise.show(title)
 ``` 
-*Previews the image with given title*  
+>*Previews the image with given title*  
+   
+### GenerateNose
+Generator with argparse
+**usage**
+```batch
+python3 GenerateNose.py -h
+```
+>*Shows help*
