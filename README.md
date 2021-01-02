@@ -55,3 +55,7 @@ python3 GenerateNose.py -h
 |6|2|0|![620](https://imgur.com/ZJOMRBC.png)|
 |7|1|8|![718](https://imgur.com/sYIqVFX.png)|
 |9|8|9|![989](https://imgur.com/oQreVbx.png)|
+
+
+## requirements
+Pillow over 5.3
