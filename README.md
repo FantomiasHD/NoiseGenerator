@@ -45,6 +45,8 @@ Generator with argparse
 python3 GenerateNose.py -h
 ```
 >*Shows help*
+-----
+
 
 ### Examples
 |iterations | rectangle-size | roughness | output |
