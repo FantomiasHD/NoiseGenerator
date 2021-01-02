@@ -6,7 +6,7 @@ A class based script
 **usage**:
 ```python
 import NoiseMain
-noise = NoiseMain.Noise(size, iterations,  roughness)
+noise = NoiseMain.Noise(size, iterations, roughness)
 ```  
 **Methods**: 
 ```python
