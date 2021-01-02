@@ -44,7 +44,7 @@ Generator with argparse
 ```batch
 python3 GenerateNose.py -h
 ```
->*Shows help*
+>*Shows help - Use the Information there*
 -----
 
 
