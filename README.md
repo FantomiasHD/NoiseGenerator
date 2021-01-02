@@ -6,7 +6,7 @@ A class based script
 **usage**:
 ```python
 import NoiseMain
-noise = NoiseMain.Noise(size, iterations,  smoothVal)
+noise = NoiseMain.Noise(size, iterations,  roughness)
 ```  
 **Methods**: 
 ```python
@@ -45,3 +45,11 @@ Generator with argparse
 python3 GenerateNose.py -h
 ```
 >*Shows help*
+
+### Examples
+|iterations | rectangle-size | roughness | output |
+|---------- |----------------|-----------|--------|
+|2|0|5|[205](https://i.imgur.com/RX32N3H.png)|
+|6|2|0|[620](https://imgur.com/ZJOMRBC)|
+|7|1|8|[718](https://imgur.com/sYIqVFX)|
+|9|8|9|[989](https://imgur.com/oQreVbx)|
