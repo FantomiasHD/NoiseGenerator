@@ -12,7 +12,7 @@ noise = NoiseMain.Noise(size, iterations,  roughness)
 ```python
 noise.generate()
 ``` 
->*generates new unsmoothed image*  
+>*generates new unsmoothed image. Needs to be called*  
 ```python
 noise.smooth()
 ``` 
