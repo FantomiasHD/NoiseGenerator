@@ -1,4 +1,5 @@
 # NoiseGenerator
+Ein Generator für Perlinnoise ähnlichen Rauschen 
 
 ## Scipts
 ### NoiseMain 
