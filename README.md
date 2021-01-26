@@ -7,7 +7,7 @@ A class based script
 **usage**:
 ```python
 import NoiseMain
-noise = NoiseMain.Noise(size, iterations, roughness)
+noise = NoiseMain.Noise(size, iterations, falloff, roughness, basecolor)
 ```  
 **Methods**: 
 ```python
@@ -25,7 +25,11 @@ noise.generateEllipse(size)
 ```python
 noise.generateRect(size)
 ``` 
->*Draws ellipses to generate bigger areas*  
+>*Draws rectangles to generate bigger areas*  
+```python
+noise.generatePie(size)
+``` 
+>*Draws Pieslices to generate bigger areas*  
 ```python
 noise.seed(seed)
 ``` 
@@ -48,6 +52,24 @@ python3 GenerateNose.py -h
 >*Shows help - Use the Information there*
 -----
 
+### loadingBar Package
+**usage**
+```python
+from loadingbar import LoadingBar
+Bar = LoadingBar(Name, Size, Goal, Level)
+```
+>*Goal: Max value (100%)*   
+>*Level: Spaces added to the name to level the Bars*
+
+**Methods:**
+```python
+LoadingBar.draw(state)
+```
+>*Draws the LoadingBar State=curr. percent*
+```python
+LoadingBar.finish()
+```
+>*Draws the that doesn't get deleted on next promt. Also shows Done! instead of 100%*
 
 ### Examples
 |iterations | rectangle-size | roughness | output |
