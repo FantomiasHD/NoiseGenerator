@@ -74,10 +74,10 @@ LoadingBar.finish()
 ### Examples
 |iterations | rectangle-size | roughness | output |
 |:----------:|:----------------:|:-----------:|--------|
-|2|0|5|![205](https://i.imgur.com/RX32N3H.png)|
-|6|2|0|![620](https://imgur.com/ZJOMRBC.png)|
-|7|1|8|![718](https://imgur.com/sYIqVFX.png)|
-|9|8|9|![989](https://imgur.com/oQreVbx.png)|
+|2|0|5|![205](https://i.imgur.com/X7w47l5.png)|
+|6|2|0|![620](https://i.imgur.com/jvwLVPd.png)|
+|7|1|8|![718](https://i.imgur.com/oMFoDiC.png)|
+|9|8|9|![989](https://i.imgur.com/AKx2A53.png)|
 
 
 ## requirements
